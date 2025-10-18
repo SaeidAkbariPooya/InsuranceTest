@@ -10,12 +10,12 @@ namespace Insurance.Application.Services
     {
         private readonly IInsuranceRequestRepository _requestRepository;
         private readonly IInsuranceCoverageRepository _coverageRepository;
-        private readonly IInsuranceCalculator _calculator;
+        private readonly IInsuranceCalculatorService _calculator;
 
         public InsuranceService(
             IInsuranceRequestRepository requestRepository,
             IInsuranceCoverageRepository coverageRepository,
-            IInsuranceCalculator calculator)
+            IInsuranceCalculatorService calculator)
         {
             _requestRepository = requestRepository;
             _coverageRepository = coverageRepository;

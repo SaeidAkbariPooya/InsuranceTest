@@ -30,7 +30,7 @@ builder.Services.AddScoped<IInsuranceRequestRepository, InsuranceRequestReposito
 builder.Services.AddScoped<IInsuranceCoverageRepository, InsuranceCoverageRepository>();
 
 // Services
-builder.Services.AddScoped<IInsuranceCalculator, InsuranceCalculator>();
+builder.Services.AddScoped<IInsuranceCalculatorService, InsuranceCalculatorService>();
 builder.Services.AddScoped<IInsuranceService, InsuranceService>();
 
 builder.Services.AddMemoryCache();

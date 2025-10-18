@@ -1,7 +1,7 @@
 ﻿
 namespace Insurance.Core.IServices
 {
-    public interface IInsuranceCalculator
+    public interface IInsuranceCalculatorService
     {
         decimal CalculateSurgeryPremium(decimal capital);
         decimal CalculateDentalPremium(decimal capital);
